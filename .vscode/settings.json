@@ -2,7 +2,7 @@
   "files.watcherExclude": {
     "**/target": true
   },
-  "[scala]": {
+  "[java][scala]": {
     "editor.formatOnSave": true,
   }
 }

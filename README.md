@@ -12,3 +12,5 @@ sbt console
 .gitignore は https://github.com/scalameta/metals/blob/main/.gitignore をコピペ  
 .scalafmt.conf は Metals 拡張機能インストール後、format しようとしたらダイアログ出て生成された
 
+本家サンプルコード  
+https://github.com/miciek/grokkingfp-examples
