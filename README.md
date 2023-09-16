@@ -3,6 +3,10 @@
 docker compose up -d
 # コンテナの bash 実行
 docker exec -it scala-sbt bash
+# REPL の Scala バージョン指定（初回のみ）
+cat <<END > build.sbt
+scalaVersion := "3.3.1"
+END
 # Scala の REPL 起動
 sbt console
 # ファイル実行
