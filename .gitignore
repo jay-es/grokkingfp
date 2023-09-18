@@ -1,60 +1,22 @@
-*.class
-*.log
+# Bloop
+.bloop/
 
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-**/.bloop
-.bsp/
-
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
-
-.idea
-
-# ENSIME specific
-.ensime_cache/
-.ensime
-
-.metals/
-.ammonite/
-metals.sbt
-metals/project/
-
-# .vscode/
-
-local.*
-
+# macOS
 .DS_Store
 
-node_modules
+# Metals
+.metals/
+metals.sbt
 
-lib/core/metadata.js
-lib/core/MetadataBlog.js
+# sbt
+project/project/
+project/target/
+target/
 
-website/translated_docs
-website/build/
-website/yarn.lock
-website/node_modules
-website/i18n/*
-!website/i18n/en.json
-website/.docusaurus
-website/.cache-loader
+# VS Code
+.vscode/*
+!.vscode/settings.json
 
-project/metals.sbt
-coursier
-
-# Scala CLI
-
+# 追加
+project/
 .scala-build/
-
-# Sourcegraph specific
-index.scip

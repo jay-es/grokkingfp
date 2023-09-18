@@ -3,6 +3,7 @@
     "**/target": true
   },
   "[java][scala]": {
+    "editor.defaultFormatter": "scalameta.metals",
     "editor.formatOnSave": true,
   }
 }
