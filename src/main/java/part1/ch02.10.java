@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ch02_TipCalculation {
+class ch02_TipCalculation {
 	class TipCalculatorBad { // named TipCalculator in the book
 		private List<String> names = new ArrayList<>();
 		private int tipPercentage = 0;

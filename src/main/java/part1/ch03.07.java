@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ch03_LapTimes {
+class ch03_LapTimes {
 	static double totalTime(List<Double> lapTimes) {
 		List<Double> withoutWarmUp = lapTimes.subList(1, lapTimes.size());
 		double sum = 0;

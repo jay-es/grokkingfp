@@ -2,7 +2,7 @@
 # Scala の REPL 起動
 sbt console
 # スクリプトファイル実行
-:load src/ch01.sc
+:load src/main/scala/part1/ch01.sc
 ```
 
 本家サンプルコード  
