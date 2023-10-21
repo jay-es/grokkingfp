@@ -1,4 +1,5 @@
 import cats.effect.IO
+import cats.implicits.toTraverseOps // sequence
 
 // 8.38
 def f01[A, B](x: IO[A], f: A => B): IO[B] = x.map(f)

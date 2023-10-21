@@ -24,5 +24,7 @@ addCommandAlias(
   ";runMain ch08_SchedulingMeetings" +
     ";runMain ch08_CardGame" +
     ";runMain ch08_CastingDie" +
-    ";runMain ch09_CurrencyExchange"
+    ";runMain ch09_CurrencyExchange" +
+    ";runMain ch10_CastingDieConcurrently" +
+    ""
 )
